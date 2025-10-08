@@ -90,7 +90,7 @@ void loop() {
   }
   else if (ledcolor == -1)
   {
-    ledcolor = 7;
+    ledcolor = 4;
   }
 }
 
