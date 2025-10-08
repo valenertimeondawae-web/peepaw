@@ -71,26 +71,19 @@ void loop() {
     digitalWrite(GledPin, LOW);
     digitalWrite(BledPin, HIGH);
   }
-    else if (ledcolor == 3){
-    //Yellow
-    currentcolor="Blue";
-    digitalWrite(RledPin, HIGH);
-    digitalWrite(GledPin, HIGH);
-    digitalWrite(BledPin, LOW);
-  }
-  else if (ledcolor == 4){
+  else if (ledcolor == 3){
     //White
     currentcolor="White";
     digitalWrite(RledPin, LOW);
     digitalWrite(GledPin, LOW);
     digitalWrite(BledPin, LOW);
   }
-  else if (ledcolor == 5){
+  else if (ledcolor == 4){
     ledcolor = 0;
   }
   else if (ledcolor == -1)
   {
-    ledcolor = 4;
+    ledcolor = 3;
   }
 }
 
